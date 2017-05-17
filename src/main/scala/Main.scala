@@ -1,7 +1,6 @@
 package xyz.hyperreal.bittydbrepl
 
 import funl.REPL
-import xyz.hyperreal.bittydb._
 
 
 object Main extends App {

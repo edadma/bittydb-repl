@@ -1,7 +1,7 @@
 BittyDB REPL
 ============
 
-clone, build and run the shell...
+Do a `git clone`, run `sbt` and type `run` at prompt to start REPL...
 
 	Welcome to the BittyDB shell
 

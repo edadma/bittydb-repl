@@ -1,6 +1,6 @@
 name := "bittydb-repl"
 
-version := "0.2"
+version := "0.3"
 
 scalaVersion := "2.12.2"
 
@@ -23,9 +23,10 @@ libraryDependencies ++= Seq(
 	"org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
 )
 
-libraryDependencies += "xyz.hyperreal" %% "bittydb" % "0.2"
-
-libraryDependencies += "xyz.hyperreal" %% "funl" % "0.20"
+libraryDependencies ++= Seq(
+  "xyz.hyperreal" %% "bittydb" % "0.7",
+  "xyz.hyperreal" %% "funl" % "0.20"
+)
 
 mainClass in (Compile, run) := Some( "xyz.hyperreal." + "bittydbrepl" + ".Main" )
 
